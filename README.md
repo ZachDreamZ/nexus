@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/logo.svg" width="100">
+  <img src="assets/logo.png" width="100">
   <h1>nexus</h1>
   <p><strong>Codebase Dependency Analyzer &amp; Visualizer</strong></p>
 </div>
