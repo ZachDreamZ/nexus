@@ -1,0 +1,13 @@
+[package]
+name = "parse"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+description = "File parsing and import extraction for nexus"
+
+[dependencies]
+core = {path = "../core"}
+
+[dev-dependencies]
+tempfile = "3"

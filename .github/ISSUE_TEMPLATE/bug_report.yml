@@ -1,0 +1,21 @@
+name: Bug Report
+description: File a bug report
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Also what did you expect to happen?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction steps
+      description: How can we reproduce this?
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: Run `nexus --version` and paste the output
